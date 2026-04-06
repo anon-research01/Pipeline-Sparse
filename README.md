@@ -65,7 +65,7 @@ The scripts assume access to the following categories of input data:
 - MNDWI raster
 
 The administrative boundary for Indonesia is available at GADM Maps and Data: https://gadm.org/.
-We use the Gridded GDP raster based on version 2 of Kummu et al. (2018): https://doi.org/10.5281/zenodo.13943886.
+We use the Gridded GDP raster based on version 2 of Kummu et al. (2018): https://doi.org/10.5281/zenodo.13943886. Specifically, data: rast_gdpTot_1990_2020_30arcsec.tif.
 For the LandScan data available at: https://landscan.ornl.gov/.
 The last two gridded datasets, NDVI and MNDWI, were downloaded using Google Earth Engine, and, for reproducibility, we uploaded them to this GitHub: Indonesia_NDVI_MODIS.zip and Indonesia_MNDWI.zip.
 Because file paths in the working scripts were originally written for a local research environment, you will need to update directory paths before running the code.
@@ -109,7 +109,7 @@ The benchmark is intentionally aligned with the matrix-construction stage of the
 4. isolate removal
 5. row-standardisation
 
-It then stops before the formation of the regression sample and the SAR/SDM likelihood evaluation.
+It then stops before the regression sample is formed and the SAR/SDM likelihood evaluation is performed.
 
 ## Before making the repository public
 
