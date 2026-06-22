@@ -64,7 +64,7 @@ This script implements the full empirical workflow:
 
 ### 2. Benchmark and stress-test workflow
 
-**Current working script name:** `benchmark_v4_aligned_sparse_vs_cell2nb_version3_compact_metadata_space.R`
+**Current working script name:** `benchmark_v4_proposed_edge_terra_full_lattice_PATCHED_outputfolders.R`
 
 **Suggested public-facing name:** `benchmark_sparse_vs_spdep_vs_terra.R`
 
